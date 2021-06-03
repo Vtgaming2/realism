@@ -2,7 +2,7 @@ let Discord = require("discord.js");
 let Client = new Discord.Client();
 let db = require("quick.db");
 const { prefix } = require("./config.json");
-
+//hello
 Client.on("ready", () => {
   console.log("READY!");
   db.set(
